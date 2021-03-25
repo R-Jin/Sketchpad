@@ -1,0 +1,28 @@
+#board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    border: solid rgb(63, 63, 63) 1px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+}
+
+#clear-btn {
+    text-align: center;
+    width: 80px;
+    padding: 10px;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: center;
+}
+
